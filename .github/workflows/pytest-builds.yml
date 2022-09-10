@@ -2,12 +2,11 @@ name: unit-tests
 
 on:
   push:
-    branches: [ master ]
   pull_request:
 
 jobs:
   windows:
-    runs-on: windows-latest
+    runs-on: windows-2019
     timeout-minutes: 30
     strategy:
       fail-fast: false

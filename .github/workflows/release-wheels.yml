@@ -38,30 +38,30 @@ jobs:
       matrix:
         include:
           # Windows 32 bit
-          - os: windows-latest
+          - os: windows-2019
             python: 37
             platform_id: win32
           - os: windows-latest
             python: 38
             platform_id: win32
-          - os: windows-latest
+          - os: windows-2019
             python: 39
             platform_id: win32
-          - os: windows-latest
+          - os: windows-2019
             python: 310
             platform_id: win32
 
           # Windows 64 bit
-          - os: windows-latest
+          - os: windows-2019
             python: 37
             platform_id: win_amd64
-          - os: windows-latest
+          - os: windows-2019
             python: 38
             platform_id: win_amd64
-          - os: windows-latest
+          - os: windows-2019
             python: 39
             platform_id: win_amd64
-          - os: windows-latest
+          - os: windows-2019
             python: 310
             platform_id: win_amd64
 
